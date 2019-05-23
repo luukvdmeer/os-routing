@@ -1,0 +1,367 @@
+﻿Order ID;Distance to stop;Customer City;Customer Street;Product title;stop location;stop x;stop y;customer x;customer y
+931;41462,42145001;Aurolzmünster;Maierhof 33;Busfahrt 21.12 - Grieskirchen Bahnhof (Johannesstraße 3);Grieskirchen Bahnhof (Johannesstraße 3);48,232506;13,834073;48,24675;13,46145
+928;5396,2773316;Aurolzmünster;Maierhof 15B;Busfahrt 21.12 - Ried im Innkreis (Busbahnhof);Ried im Innkreis (Busbahnhof);48,20989;13,49006;48,2491;13,46004
+928;17560,64245616;Riedau;Schwabenbach 14;Busfahrt 21.12 - Ried im Innkreis (Busbahnhof);Ried im Innkreis (Busbahnhof);48,20989;13,49006;48,30091;13,62087
+886;1130,88751635;Bad Ischl;Traxleckerweg 12A;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,71599;13,6351
+931;21052,88087854;Natternbach;Badstraße;Busfahrt 21.12 - Grieskirchen Bahnhof (Johannesstraße 3);Grieskirchen Bahnhof (Johannesstraße 3);48,232506;13,834073;48,40235;13,74113
+931;11129,76250764;Prambachkirchen;Gföllnerwald 32;Busfahrt 21.12 - Grieskirchen Bahnhof (Johannesstraße 3);Grieskirchen Bahnhof (Johannesstraße 3);48,232506;13,834073;48,31512;13,89395
+1003;2902,20034944;Steyr;Forellenweg 16;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,06092;14,4351
+1498;6712,70917677;Gschwandt;Lärchenweg 6;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,9387;13,84139
+931;2891,95852138;Grieskirchen;Tolleterau 209;Busfahrt 21.12 - Grieskirchen Bahnhof (Johannesstraße 3);Grieskirchen Bahnhof (Johannesstraße 3);48,232506;13,834073;48,23646;13,80835
+931;2891,95852138;Grieskirchen;Tolleterau 209;Busfahrt 21.12 - Grieskirchen Bahnhof (Johannesstraße 3);Grieskirchen Bahnhof (Johannesstraße 3);48,232506;13,834073;48,23646;13,80835
+1003;11833,40681428;Ternberg;Sonnenstrasse;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;47,95338;14,35319
+1003;11804,29268116;Ternberg;Sonnenstr.3;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;47,95451;14,35225
+1003;13755,26841374;St. Marien;Weichstetten Süd 82;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,11334;14,31861
+928;4209,99425029;Neuhofen im Innkreis;Gobrechtsham;Busfahrt 21.12 - Ried im Innkreis (Busbahnhof);Ried im Innkreis (Busbahnhof);48,20989;13,49006;48,19399;13,4555
+928;20843,8126435;Taufkirchen an der Pram;Bachschwölln 33;Busfahrt 21.12 - Ried im Innkreis (Busbahnhof);Ried im Innkreis (Busbahnhof);48,20989;13,49006;48,39924;13,52529
+928;22150,66595991;Taufkirchen;Dorfgasse 3;Busfahrt 21.12 - Ried im Innkreis (Busbahnhof);Ried im Innkreis (Busbahnhof);48,20989;13,49006;48,40938;13,53544
+928;2249,59672086;Ried im Innkreis;Huberstraße 8;Busfahrt 21.12 - Ried im Innkreis (Busbahnhof);Ried im Innkreis (Busbahnhof);48,20989;13,49006;48,21629;13,47081
+1007;663,47880353;linz;Hafnerstrasse;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,29939;14,2856
+1498;4259,92632301;Ohlsdorf;Langganglweg 1;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,96176;13,7955
+928;29099,25120507;Altheim;Mühlheimstr. 20/1;Busfahrt 21.12 - Ried im Innkreis (Busbahnhof);Ried im Innkreis (Busbahnhof);48,20989;13,49006;48,25383;13,23188
+928;29099,25120507;Altheim;Mühlheimstr. 20/1;Busfahrt 21.12 - Ried im Innkreis (Busbahnhof);Ried im Innkreis (Busbahnhof);48,20989;13,49006;48,25383;13,23188
+1007;17522,28878458;Asten;Eigenheimstraße 2;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,22107;14,42257
+931;553,47242228;Grieskirchen;Gymnasiumstraße 11;Busfahrt 21.12 - Grieskirchen Bahnhof (Johannesstraße 3);Grieskirchen Bahnhof (Johannesstraße 3);48,232506;13,834073;48,23762;13,83373
+1498;5525,95484911;Gschwandt;Waldbach 12;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,92592;13,83227
+1498;4259,92632301;Ohlsdorf;Langganglweg1;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,96176;13,7955
+1012;1146,80668272;Enns;Styrerstraße 9;Busfahrt 21.12 - Enns (Stadthalle);Enns (Stadthalle);48,217563;14,476878;48,20736;14,47984
+1231;5733,39051139;Suben;Etzelshofen 50;Busfahrt 21.12 - Schärding (Friedhofsparkplatz);Schärding (Friedhofsparkplatz);48,45755;13,4305;48,40458;13,43254
+931;1297,68207588;Grieskirchen;Annaberg;Busfahrt 21.12 - Grieskirchen Bahnhof (Johannesstraße 3);Grieskirchen Bahnhof (Johannesstraße 3);48,232506;13,834073;48,22992;13,84547
+931;33750,04765033;Peterskirchen;Osternach 10;Busfahrt 21.12 - Grieskirchen Bahnhof (Johannesstraße 3);Grieskirchen Bahnhof (Johannesstraße 3);48,232506;13,834073;48,23959;13,53063
+887;1543,0224734;Ebensee;Prato - Allee 2b / 7;Busfahrt 21.12 - Ebensee (Landungsplatz);Ebensee (Landungsplatz);47,81243;13,77462;47,79989;13,76797
+1498;75115,60317986;Reichraming;Unterer Kirchenberg;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,89052;14,45731
+931;30625,37109835;Marchtrenk;Rennerstraße 20b;Busfahrt 21.12 - Grieskirchen Bahnhof (Johannesstraße 3);Grieskirchen Bahnhof (Johannesstraße 3);48,232506;13,834073;48,19328;14,10685
+1012;89383,99568738;Rutzenmoos;Schulstraße 5;Busfahrt 21.12 - Enns (Stadthalle);Enns (Stadthalle);48,217563;14,476878;47,97509;13,7082
+1007;22588,98160253;Enns;Grollerstraße 15;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,21802;14,47246
+1003;13427,87596171;Sierning;Kammerhuberstr.60;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,02792;14,29919
+886;5015,53295296;Bad Ischl;Eiskapellenweg;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,72833;13,5835
+1003;13427,87596171;Sierning;Kammerhuberstr.60;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,02792;14,29919
+1007;1621,88141937;Linz;Strabergerstr.;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,31981;14,28433
+1007;30998,55631536;Steyr;Forellenweg 16;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,06092;14,4351
+1007;35476,45272465;Hartkirchen;Hilkering 58;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,3732;13,97553
+1498;18267,46141334;Vorchdorf;Einsiedlinger Straße 40;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,98148;13,93732
+931;2891,95852138;Grieskirchen;Tolleterau 209;Busfahrt 21.12 - Grieskirchen Bahnhof (Johannesstraße 3);Grieskirchen Bahnhof (Johannesstraße 3);48,232506;13,834073;48,23646;13,80835
+1007;22840,07639428;Bad Leonfelden;33 Eisenhandstraße;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,51706;14,29277
+1007;1621,88141937;Linz;Strabergerstr.;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,31981;14,28433
+1003;11953,97312059;Ernsthofen;Gerstmayrsiedlung 21;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,13076;14,48046
+1007;228801,19468418;Wien;Kutschkergasse 2/8;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,22221;16,34378
+1007;12161,79450089;Wilhering;Kürnbergstraße;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,31328;14,17859
+1007;18336,16473431;Alkoven;Enzianstraße;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,29218;14,12326
+1007;21563,86593004;4533 Piberbach;Obere Dorfstrasse 10;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,11466;14,22836
+1007;1189,95452031;Linz;Bürgerstraße 46;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,29959;14,29692
+1007;5363,21056367;Leonding;Am Südgarten 22;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,26095;14,26553
+1007;48328,74191855;Micheldorf;Welserstraße 50;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;47,88645;14,13228
+886;3970,31406205;Bad Ischl;Filzmoosstraße;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,7142;13,59007
+1012;35532,85020234;Bad Hall;Billrothstr.;Busfahrt 21.12 - Enns (Stadthalle);Enns (Stadthalle);48,217563;14,476878;48,03191;14,21275
+928;17491,62102771;Reichersberg;Münsteuer 54;Busfahrt 21.12 - Ried im Innkreis (Busbahnhof);Ried im Innkreis (Busbahnhof);48,20989;13,49006;48,33712;13,39294
+886;16036,66839964;Strobl;Moosgasse 103;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,71779;13,4816
+1003;25112,5561127;Rohr im Kremstal;Waldstraße 18;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,06602;14,19508
+886;1050,75842106;Bad Ischl;Knappenweg 6;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,70457;13,63184
+1003;11953,97312059;Ernsthofen;Gerstmayrsiedlung 21;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,13076;14,48046
+1012;7750,63147707;St. Valentin;Edisonweg 3;Busfahrt 21.12 - Enns (Stadthalle);Enns (Stadthalle);48,217563;14,476878;48,15872;14,51704
+1003;20993,20784339;Großraming;Neustiftgraben 18;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;47,90023;14,55172
+1498;744,95145154;Gmunden;Rosenkranzstraße;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,92151;13,78857
+886;7589,02796565;Bad Goisern;Kirchengasse;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,64233;13,61692
+1498;9933,88030513;Neukirchen;Kösslhalt 17;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,87228;13,70913
+1498;744,95145154;Gmunden;Rosenkranzstraße;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,92151;13,78857
+887;1084,09577181;Ebensee;Pestalozzistraße;Busfahrt 21.12 - Ebensee (Landungsplatz);Ebensee (Landungsplatz);47,81243;13,77462;47,80242;13,77389
+1003;20338,45665381;Großraming;Rodelsbach;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;47,87599;14,51126
+886;29526,97044592;Gmunden;Kirchengasse 7;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,91882;13,79929
+1007;29437,05233529;St.Valentin;Kaplanstraße 31;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,15698;14,51013
+887;52325,32659644;Aigen im Ennstal;Aich 15;Busfahrt 21.12 - Ebensee (Landungsplatz);Ebensee (Landungsplatz);47,81243;13,77462;47,52809;14,1558
+886;11496,9733713;Ebensee;Langwieserstr. 111;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,76525;13,71521
+1003;25202,87395505;Strengberg;Austraße 19;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,1617;14,61269
+1003;13901,49110522;St. Marien;Weichstetten Ost-;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,12311;14,32432
+1003;11953,97312059;Ernsthofen;Gerstmayrsiedlung 21;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,13076;14,48046
+1003;12651,77710684;Losenstein;Blaslweg 14;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;47,92215;14,42719
+1003;6452,70157694;Haidershofen;26 Zellhofersiedlung;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,07837;14,46349
+1003;6218,54845301;Behamberg;Putznsiedlung 37;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,03334;14,47506
+1498;4259,92632301;Ohlsdorf;Langganglweg1;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,96176;13,7955
+1003;17704,24470357;Schiedlberg;Hauptstraße 22;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,09129;14,26838
+886;16042,89939639;Strobl;Bahnstr. 393;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,71682;13,48151
+1003;10457,04690429;Ternberg;Lauchweg 15;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;47,97382;14,35006
+1231;3615,46238616;St. Florian am Inn;Pramerdorf 45/9;Busfahrt 21.12 - Schärding (Friedhofsparkplatz);Schärding (Friedhofsparkplatz);48,45755;13,4305;48,43326;13,45284
+1498;23214,09823406;Scharnstein;15 In der Lahn;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,92753;13,99134
+886;4018,23069742;Bad Ischl;Köhlerweg 18;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,723;13,5912
+1003;10457,04690429;Ternberg;Lauchweg 15;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;47,97382;14,35006
+1498;5433,65257285;Laakirchen;Gemonastraße 5;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,95803;13,81913
+931;10474,89305844;Taufkirchen;Widldorf 50;Busfahrt 21.12 - Grieskirchen Bahnhof (Johannesstraße 3);Grieskirchen Bahnhof (Johannesstraße 3);48,232506;13,834073;48,27375;13,74881
+1007;1957,97060734;Linz;Hamerlingstraße 2;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,29032;14,29784
+887;1084,09577181;Ebensee;Pestalozzistraße;Busfahrt 21.12 - Ebensee (Landungsplatz);Ebensee (Landungsplatz);47,81243;13,77462;47,80242;13,77389
+1231;8937,35366141;St. Marienkirchen;Großwiesenhart 13;Busfahrt 21.12 - Schärding (Friedhofsparkplatz);Schärding (Friedhofsparkplatz);48,45755;13,4305;48,3767;13,44713
+1231;8937,35366141;St. Marienkirchen;Großwiesenhart 13;Busfahrt 21.12 - Schärding (Friedhofsparkplatz);Schärding (Friedhofsparkplatz);48,45755;13,4305;48,3767;13,44713
+886;24359,31513474;Altmünster;Hasenau;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,88799;13,76262
+1498;6368,23340975;Laakirchen;Casinoweg 2;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,97443;13,81325
+1498;569,02058012;Gmunden;Lindenstraße 2b;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,92023;13,78542
+1498;6225,72489775;Laakirchen;Am Traunrain 7b;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,9701;13,817
+886;22656,42106788;St.Gilgen;Christian-Fritz-Weg 12;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,73395;13,42308
+886;3886,18911922;Bad Ischl;Weidenweg;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,72038;13,59173
+1231;3615,46238616;St. Florian am Inn;Pramerdorf 45/9;Busfahrt 21.12 - Schärding (Friedhofsparkplatz);Schärding (Friedhofsparkplatz);48,45755;13,4305;48,43326;13,45284
+1231;3615,46238616;St. Florian am Inn;Pramerdorf 45/9;Busfahrt 21.12 - Schärding (Friedhofsparkplatz);Schärding (Friedhofsparkplatz);48,45755;13,4305;48,43326;13,45284
+1231;10982,72963249;Rainbach im Innkreis;Rainbach 39b;Busfahrt 21.12 - Schärding (Friedhofsparkplatz);Schärding (Friedhofsparkplatz);48,45755;13,4305;48,45505;13,52924
+1007;31555,14151317;Kremsmünster;Fischer-Colbrie-Straße 12;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,05476;14,14067
+1003;6853,41633824;Behamberg;Wachtberg 93;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,05671;14,47874
+1007;7578,95007769;Altenberg bei Linz;Wimmergasse 16;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,36907;14,31615
+1003;21003,16346268;St.Peter/Au;Wiesenbach;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,04824;14,60813
+1007;29437,05233529;St.Valentin;Kaplanstraße 31;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,15698;14,51013
+1007;83060,56439953;Timelkam;Straußstraße 3a;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,00305;13,60065
+1003;3311,00595167;Steyr;Franz Koppelhuber Straße;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,07008;14,41824
+1003;3311,00595167;Steyr;Franz Koppelhuber Straße;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,07008;14,41824
+1007;23336,46632764;Schiedlberg;Lindenstr. 7;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,09024;14,26194
+1003;1213,80544633;Steyr;Johann Puchstraße 19;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,0506;14,42025
+931;22015,87138525;Haag am Hausruck;Lambacherstraße 10;Busfahrt 21.12 - Grieskirchen Bahnhof (Johannesstraße 3);Grieskirchen Bahnhof (Johannesstraße 3);48,232506;13,834073;48,18395;13,64178
+1012;1363,06645697;Enns;Hofmann Ring 12;Busfahrt 21.12 - Enns (Stadthalle);Enns (Stadthalle);48,217563;14,476878;48,21293;14,46547
+1003;20473,97938648;Haag;Reichhub 31;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,14929;14,56969
+1003;32704,32186064;Biberbach;Stelzenberg 494;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,02883;14,71338
+931;13632,21040245;Gaspoltshofen;Hörbach 8;Busfahrt 21.12 - Grieskirchen Bahnhof (Johannesstraße 3);Grieskirchen Bahnhof (Johannesstraße 3);48,232506;13,834073;48,13151;13,76052
+1007;29437,05233529;St.Valentin;Kaplanstraße 31;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,15698;14,51013
+1003;1761,62490345;Steyr;Resthofstraße;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,05518;14,42347
+1012;1250,45831452;Enns;Eichbergstraße 24;Busfahrt 21.12 - Enns (Stadthalle);Enns (Stadthalle);48,217563;14,476878;48,211;14,4676
+1003;7766,83054431;Wolfern;Niederwolfern 8;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,0864056;14,3665032
+1003;2174,76726257;Steyr Stadt;Dieselstraße 35;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,05949;14,421
+1007;1621,88141937;Linz;Strabergerstr.;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,31981;14,28433
+928;12375,59363972;Lohnsburg;Hochkuchlerstraße 47;Busfahrt 21.12 - Ried im Innkreis (Busbahnhof);Ried im Innkreis (Busbahnhof);48,20989;13,49006;48,14267;13,39999
+1003;836,40222779;Steyr;Jaegerbergweg;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,0316;14,41975
+931;9550,20671116;Michaelnbach;Oberspaching 6;Busfahrt 21.12 - Grieskirchen Bahnhof (Johannesstraße 3);Grieskirchen Bahnhof (Johannesstraße 3);48,232506;13,834073;48,31691;13,8084
+1003;14225,9290299;Ternberg;Steinbacherstraße 40;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;47,95523;14,32082
+928;1931,02071995;Ried im Innkreis;Steinbauerweg 12;Busfahrt 21.12 - Ried im Innkreis (Busbahnhof);Ried im Innkreis (Busbahnhof);48,20989;13,49006;48,22054;13,47612
+931;42421,34695703;Aurolzmünster;Burgergarten 38;Busfahrt 21.12 - Grieskirchen Bahnhof (Johannesstraße 3);Grieskirchen Bahnhof (Johannesstraße 3);48,232506;13,834073;48,24702;13,45283
+931;26158,67231647;Pram;Schwanthalerstraße 12;Busfahrt 21.12 - Grieskirchen Bahnhof (Johannesstraße 3);Grieskirchen Bahnhof (Johannesstraße 3);48,232506;13,834073;48,23544;13,59884
+931;3581,20880489;Schlüßlberg;Straßfeld 46;Busfahrt 21.12 - Grieskirchen Bahnhof (Johannesstraße 3);Grieskirchen Bahnhof (Johannesstraße 3);48,232506;13,834073;48,22563;13,86558
+1007;35476,45272465;Hartkirchen;Hilkering 58;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,3732;13,97553
+931;31235,61799093;Kopfing;Ruholding 28;Busfahrt 21.12 - Grieskirchen Bahnhof (Johannesstraße 3);Grieskirchen Bahnhof (Johannesstraße 3);48,232506;13,834073;48,4484;13,64718
+931;8876,05270926;S. Thomas;Wimm 3;Busfahrt 21.12 - Grieskirchen Bahnhof (Johannesstraße 3);Grieskirchen Bahnhof (Johannesstraße 3);48,232506;13,834073;48,29107;13,8901
+1003;20473,97938648;Haag;Reichhub 31;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,14929;14,56969
+1003;3668,37842426;St.Ulrich;Wegererberg4” 4;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,02823;14,45062
+1231;5941,20706244;Wernstein;Wimberg 12;Busfahrt 21.12 - Schärding (Friedhofsparkplatz);Schärding (Friedhofsparkplatz);48,45755;13,4305;48,49956;13,46493
+1003;1752,49217056;Garsten;Hochhausstraße 7;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,02466;14,41268
+1231;2123,43550215;St.Florian am Inn;St.Florian am Inn;Busfahrt 21.12 - Schärding (Friedhofsparkplatz);Schärding (Friedhofsparkplatz);48,45755;13,4305;48,44193;13,44207
+931;2624,05494423;Sankt Georgen bei Grieskirchen;Tolleterau 234;Busfahrt 21.12 - Grieskirchen Bahnhof (Johannesstraße 3);Grieskirchen Bahnhof (Johannesstraße 3);48,232506;13,834073;48,23731;13,81094
+931;4697,19047536;Grieskirchen;Tolleterau;Busfahrt 21.12 - Grieskirchen Bahnhof (Johannesstraße 3);Grieskirchen Bahnhof (Johannesstraße 3);48,232506;13,834073;48,2428;13,79303
+1007;27810,69765984;St. Valentin;Lilienstraße;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,16654;14,49869
+1007;40030,45732787;Perg;Weidenweg 29;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,24383;14,64275
+887;76339,08008792;Reichraming;Unterer Kirchenberg 6;Busfahrt 21.12 - Ebensee (Landungsplatz);Ebensee (Landungsplatz);47,81243;13,77462;47,89027;14,45699
+1003;1955,87884851;Steyr;Tannenweg 21;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,0292;14,43402
+1007;68660,94166631;Neuhofen an der Ybbs;Rauscherweg 5;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,05843;14,85712
+931;5075,1201199;Pichl;10 Sulzbach;Busfahrt 21.12 - Grieskirchen Bahnhof (Johannesstraße 3);Grieskirchen Bahnhof (Johannesstraße 3);48,232506;13,834073;48,19928;13,86636
+1007;68660,94166631;Neuhofen an der Ybbs;Rauscherweg 5;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,05843;14,85712
+887;1532,34952082;ebensee;webereistraße;Busfahrt 21.12 - Ebensee (Landungsplatz);Ebensee (Landungsplatz);47,81243;13,77462;47,80006;13,76787
+1007;11867,49813265;St. Florian;Wolferner Straße 16;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,21713;14,35183
+1007;10658,92325932;Mühlbach (Wilhering);Mühlbachstraße 65c;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,29967;14,19197
+1003;847,3303091;Steyr;Pachergasse;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,04132;14,42682
+1003;2185,72529798;St.Ulrich bei Steyr;Freisingweg 15;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,01956;14,42376
+1003;847,3303091;Steyr;Pachergasse;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,04132;14,42682
+931;8876,05270926;S. Thomas;Wimm 3;Busfahrt 21.12 - Grieskirchen Bahnhof (Johannesstraße 3);Grieskirchen Bahnhof (Johannesstraße 3);48,232506;13,834073;48,29107;13,8901
+1498;6302,64502891;Ohlsdorf;Hildprechting51;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,98067;13,79839
+1003;23115,87478014;St.Peter in der Au;Auchweg 5;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,04096;14,62732
+1003;23115,87478014;St.Peter in der Au;Auchweg 5;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,04096;14,62732
+1003;3558,30264414;Steyr-Gleink;Capellmannstraße;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,0722;14,42297
+1498;3580,96666189;Gmunden;in der schörihub 24;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,92288;13,81475
+886;35328,85866165;Mondsee;Hernedstraße 1;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,85742;13,34121
+887;2779,17720401;Ebensee;Rindbachstraße 144;Busfahrt 21.12 - Ebensee (Landungsplatz);Ebensee (Landungsplatz);47,81243;13,77462;47,80336;13,79801
+1003;2209,76368818;Garsten;Mayrgutstraße 66;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,02919;14,40218
+1498;6302,64502891;Ohlsdorf;Hildprechting51;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,98067;13,79839
+1003;10361,57771323;Ternberg;Kornblumenstraße 15;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;47,97778;14,34785
+1003;3311,00595167;Steyr;Franz Koppelhuber Straße;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,07008;14,41824
+886;16036,66839964;Strobl;Moosgasse 103;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,71779;13,4816
+887;2779,17720401;Ebensee;Rindbachstraße 144;Busfahrt 21.12 - Ebensee (Landungsplatz);Ebensee (Landungsplatz);47,81243;13,77462;47,80336;13,79801
+887;792,90172447;Ebensee;Almhausstraße 15;Busfahrt 21.12 - Ebensee (Landungsplatz);Ebensee (Landungsplatz);47,81243;13,77462;47,80511;13,77407
+1003;11978,9540449;Sierning;Mühlberg 61;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,05155;14,31236
+1498;11366,56460996;Kirchham;Eisengattern46;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,9512;13,8815
+1498;11366,56460996;Kirchham;Eisengattern46;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,9512;13,8815
+1498;11366,56460996;Kirchham;Eisengattern46;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,9512;13,8815
+1498;11366,56460996;Kirchham;Eisengattern46;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,9512;13,8815
+1498;2705,71719887;Ohlsdorf;Kleinreithstraße 34;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,94225;13,79988
+1498;16323,27043131;Vorchdorf;Eichham 52;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,98194;13,91843
+1498;11366,56460996;Kirchham;Eisengattern46;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,9512;13,8815
+1003;20473,97938648;Haag;Reichhub 31;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,14929;14,56969
+1498;978,09748477;Gmunden;Miller-von-Aichholz-Straße;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,91628;13,77916
+886;1672,13127128;Bad Ischl;Leschetizkygasse;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,70988;13,61081
+1003;2206,12154094;St.Ulrich;Freisingweg 2a;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,01946;14,42415
+1498;2897,8353073;Gmunden;Moosgasse 19;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,92017;13,80829
+1003;1981,29819587;Steyr;Schlühslmayrstraße 100;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,03504;14,40212
+1007;76830,32807848;Regau;Lindenstraße 20;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;47,99606;13,66523
+886;1255,80686056;Bad Ischl;Brandenbergweg 8;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,71717;13,63581
+1498;4043,23790706;Altmünster;Im Hocheck 12;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,9019;13,75369
+887;385,04054423;Ebensee;Bartlberg;Busfahrt 21.12 - Ebensee (Landungsplatz);Ebensee (Landungsplatz);47,81243;13,77462;47,81461;13,77188
+1003;12791,44036752;Losenstein;Burgstraße 48;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;47,92233;14,43913
+1498;1449,35624699;Gmunden;Ohlsdorferstraße 17;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,93068;13,79422
+1498;18760,80764752;Scharnstein;Beim Bach 13;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,91035;13,95074
+1498;34125,88110876;Sattledt;Pollham 5;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;48,07806;14,05093
+1498;1737,10627674;Pinsdorf;Ehrendorferstraße;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,94006;13,77821
+1498;18760,80764752;Scharnstein;Beim Bach 13;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,91035;13,95074
+1498;1291,02647599;Gmunden;Anton von Satoristrasse;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,91708;13,7916
+1007;24473,20124776;Ennsdorf bei Enns;Ennsweg 20;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,21511;14,48975
+1498;6789,43805549;Ohlsdorf;Weidingerweg 14;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,98625;13,79466
+1498;2386,88027487;Altmünster;Am Wiesenhof 35;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,90916;13,76725
+1007;24254,34247052;Alkoven;Emling 25;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,28481;14,07045
+887;3437,25577514;Ebensee;Pflanzgartenstraße 9;Busfahrt 21.12 - Ebensee (Landungsplatz);Ebensee (Landungsplatz);47,81243;13,77462;47,78884;13,75387
+1003;836,40222779;Steyr;Jaegerbergweg;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,0316;14,41975
+888;5185,04459311;Altmünster;Hofweg 1;Busfahrt 21.12 - Traunkirchen (Bräuwiese);Traunkirchen (Bräuwiese);47,85761;13,78385;47,87121;13,73913
+888;5185,04459311;Altmünster;Hofweg 1;Busfahrt 21.12 - Traunkirchen (Bräuwiese);Traunkirchen (Bräuwiese);47,85761;13,78385;47,87121;13,73913
+1498;1938,87013595;Pinsdorg;Siedlungsstraße 15;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,93304;13,76719
+1498;7598,93287635;Laakirchen;Dopplingerstraße 3;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,98665;13,81486
+1498;7598,93287635;Laakirchen;Dopplingerstraße 3;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,98665;13,81486
+886;1157,34879114;Bad Ischl;Jainzendorfstraße 7;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,71549;13,61588
+1498;12963,14950761;St.Konrad;Nussbaum 7;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,91148;13,89847
+1498;2705,71719887;Ohlsdorf;Kleinreithstraße 34;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,94225;13,79988
+886;21121,80162837;St. Wolfgang;Ried;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,74197;13,43801
+1498;2943,48963446;Altmünster;Pühret 3;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,9018088;13,7681025
+1498;2943,48963446;Altmünster;Pühret 3;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,9018088;13,7681025
+1498;2943,48963446;Altmünster;Pühret 3;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,9018088;13,7681025
+1498;1464,61816878;Pinsdorf;Schacherfeld 4;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,9326;13,77194
+888;1904,08664048;Traunkirchen;Weiermayerweg;Busfahrt 21.12 - Traunkirchen (Bräuwiese);Traunkirchen (Bräuwiese);47,85761;13,78385;47,85668;13,76675
+1498;1838,3916432;Pinsdorf;Siedlungsstraße 24a;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,93291;13,76815
+1003;20658,90237874;Obergrünburg;Pfarrbergsiedlung/9;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;47,9521;14,254
+1003;10673,62257679;Aschach an der Steyr;August-Bachmayr-Straße 18;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,00902;14,32806
+928;746,44022679;Ried;Wilflingsederstraße 43;Busfahrt 21.12 - Ried im Innkreis (Busbahnhof);Ried im Innkreis (Busbahnhof);48,20989;13,49006;48,21589;13,49338
+928;746,44022679;Ried im innkreis;Wilflingsederstrasse 43;Busfahrt 21.12 - Ried im Innkreis (Busbahnhof);Ried im Innkreis (Busbahnhof);48,20989;13,49006;48,21589;13,49338
+1498;4946,3891338;Gschwandt;Moosham 29;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,94098;13,82414
+1003;20896,39385233;Großraming;Eisenstraße 2;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;47,88428;14,53244
+1003;20896,39385233;Großraming;Eisenstraße 2;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;47,88428;14,53244
+931;37837,72843869;Taufkirchen an der Pram;Gadern 46;Busfahrt 21.12 - Grieskirchen Bahnhof (Johannesstraße 3);Grieskirchen Bahnhof (Johannesstraße 3);48,232506;13,834073;48,42036;13,54688
+1003;1913,74342001;Garsten;Karl-Loth-Str., 17;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,02244;14,41418
+1003;1913,74342001;Garsten;Karl-Loth-Str., 17;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,02244;14,41418
+1003;2685,00481752;Steyr;Retzenwinklerstraße 15;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,06225;14,40987
+886;1255,80686056;Bad Ischl;Brandenbergweg 8;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,71717;13,63581
+1498;1311,65347325;Gmunden;Liesengutstraße 8;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,92997;13,79318
+1003;4788,38406448;Dietachdorf;Diamantstrasse 42;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,08248;14,42995
+928;746,44022679;Ried im innkreis;Wilflingsederstrasse 43;Busfahrt 21.12 - Ried im Innkreis (Busbahnhof);Ried im Innkreis (Busbahnhof);48,20989;13,49006;48,21589;13,49338
+931;17979,95765826;Eschenau i. H.;Hengstberg 6;Busfahrt 21.12 - Grieskirchen Bahnhof (Johannesstraße 3);Grieskirchen Bahnhof (Johannesstraße 3);48,232506;13,834073;48,39459;13,79702
+1003;10333,9032554;Wolfern;Wiesstraße 13;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,12061;14,37001
+1003;4788,38406448;Dietachdorf;Diamantstrasse 42;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,08248;14,42995
+931;31641,90579735;Eberschwang;Mühring 50;Busfahrt 21.12 - Grieskirchen Bahnhof (Johannesstraße 3);Grieskirchen Bahnhof (Johannesstraße 3);48,232506;13,834073;48,15262;13,5603
+886;3230,26001112;Bad Ischl;Dorfstraße 15;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,69107;13,64648
+886;1618,78925133;Bad Ischl;Glöcklerweg 1;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,70204;13,63661
+886;1866,27976046;Bad Ischl;Mozartstraße 4;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,71105;13,60895
+887;2050,36266104;Ebensee;Sägewerkstraße 11;Busfahrt 21.12 - Ebensee (Landungsplatz);Ebensee (Landungsplatz);47,81243;13,77462;47,79854;13,76205
+887;1572,89525989;Ebensee;Ferdinand Schaller-Weg 43a;Busfahrt 21.12 - Ebensee (Landungsplatz);Ebensee (Landungsplatz);47,81243;13,77462;47,79881;13,76961
+931;17135,38694994;Sankt Agatha;Sonnenhang 8;Busfahrt 21.12 - Grieskirchen Bahnhof (Johannesstraße 3);Grieskirchen Bahnhof (Johannesstraße 3);48,232506;13,834073;48,38483;13,87738
+931;17135,38694994;Sankt Agatha;Sonnenhang 8;Busfahrt 21.12 - Grieskirchen Bahnhof (Johannesstraße 3);Grieskirchen Bahnhof (Johannesstraße 3);48,232506;13,834073;48,38483;13,87738
+931;17135,38694994;Sankt Agatha;Sonnenhang 8;Busfahrt 21.12 - Grieskirchen Bahnhof (Johannesstraße 3);Grieskirchen Bahnhof (Johannesstraße 3);48,232506;13,834073;48,38483;13,87738
+886;7626,95523467;Bad Ischl;golftraße 2a;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,71322;13,55713
+1498;1310,28576599;Gmunden;Miller-von-Aichholz-Straße 83;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,91277;13,78006
+1012;1655,87673425;Enns;Enghagen 45;Busfahrt 21.12 - Enns (Stadthalle);Enns (Stadthalle);48,217563;14,476878;48,23293;14,47749
+1012;1655,87673425;Enns;Enghagen 45;Busfahrt 21.12 - Enns (Stadthalle);Enns (Stadthalle);48,217563;14,476878;48,23293;14,47749
+886;1146,63442242;Bad Ischl;Brucknerstrasse 5;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,70983;13,61561
+1012;1655,87673425;Enns;Enghagen 45;Busfahrt 21.12 - Enns (Stadthalle);Enns (Stadthalle);48,217563;14,476878;48,23293;14,47749
+1012;1655,87673425;Enns;Enghagen 45;Busfahrt 21.12 - Enns (Stadthalle);Enns (Stadthalle);48,217563;14,476878;48,23293;14,47749
+1003;20658,90237874;Obergrünburg;Pfarrbergsiedlung/9;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;47,9521;14,254
+886;4003,59531075;Lauffen;Engleitenstraße 61;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,67631;13,61595
+886;1255,80686056;Bad Ischl;Brandenbergweg 8;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,71717;13,63581
+886;7626,95523467;Bad Ischl;golftraße 2a;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,71322;13,55713
+1003;2257,80994009;Steyr;Feldstraße 6;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,05165;14,40299
+1003;2685,00481752;Steyr;Retzenwinklerstraße 15;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,06225;14,40987
+1498;3883,24388307;Altmünster;Maximilianstraße 2/5;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,89534;13,76232
+1003;16785,65877874;Reichraming;Meierhofstraße 12;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;47,89105;14,46592
+1012;1655,87673425;Enns;Enghagen 45;Busfahrt 21.12 - Enns (Stadthalle);Enns (Stadthalle);48,217563;14,476878;48,23293;14,47749
+1012;1655,87673425;Enns;Enghagen 45;Busfahrt 21.12 - Enns (Stadthalle);Enns (Stadthalle);48,217563;14,476878;48,23293;14,47749
+886;941,84468145;Bad Ischl;Franz-Nöbauerweg 10a;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,70888;13,63363
+886;941,84468145;Bad Ischl;Franz-Nöbauerweg 10a;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,70888;13,63363
+1003;3893,52138774;Steyr;Siedlerstraße 10;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,0442;14,38474
+1498;3883,24388307;Altmünster;Maximilianstraße 2/5;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,89534;13,76232
+1498;2915,82359682;Ohlsdorf;Steinweg;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,95052;13,79
+1498;1164,42679192;Gmunden;Friedrich Hebbelstraße 9a;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,91435;13,78578
+887;1151,30695316;Ebensee;Feldgasse 4;Busfahrt 21.12 - Ebensee (Landungsplatz);Ebensee (Landungsplatz);47,81243;13,77462;47,80178;13,77416
+1498;12047,95279523;Ebensee;Langbathstraße 62;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,81433;13,7663
+1498;12047,95279523;Ebensee;Langbathstraße 62;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,81433;13,7663
+1003;3893,52138774;Steyr;Siedlerstraße 10;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,0442;14,38474
+931;18550,11424103;Scharten;Aigen 26;Busfahrt 21.12 - Grieskirchen Bahnhof (Johannesstraße 3);Grieskirchen Bahnhof (Johannesstraße 3);48,232506;13,834073;48,25856;13,99897
+1498;7248,66934668;Gschwandt;Birkenweg 10;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,9378;13,84651
+931;18550,11424103;Scharten;Aigen 26;Busfahrt 21.12 - Grieskirchen Bahnhof (Johannesstraße 3);Grieskirchen Bahnhof (Johannesstraße 3);48,232506;13,834073;48,25856;13,99897
+931;6715,12477732;Michaelnbach;Krumbach 5;Busfahrt 21.12 - Grieskirchen Bahnhof (Johannesstraße 3);Grieskirchen Bahnhof (Johannesstraße 3);48,232506;13,834073;48,28972;13,8104
+1003;12036,95650052;Sierning;Frauenhofenstraße 15a-2;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,03893;14,31119
+1003;1955,87884851;Steyr;Tannenweg 21;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,0292;14,43402
+1498;1915,07858909;Gmunden;Theatergasse 6a;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,9186;13,79879
+1498;2004,17560431;Gmunden;Marktplatz 22/11;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,91904;13,79978
+1003;12719,04087666;Losenstein;Burgstraße 56;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;47,92336;14,44097
+1498;824,02630743;Gmunden;Keramikstraße 13;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,92472;13,79
+1003;20993,20784339;Großraming;Neustiftgraben 18;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;47,90023;14,55172
+888;6592,1896855;Ebensee;Hermine-Schleicher-Weg 6;Busfahrt 21.12 - Traunkirchen (Bräuwiese);Traunkirchen (Bräuwiese);47,85761;13,78385;47,79891;13,76759
+887;1656,22269951;Ebensee;Hermine-Schleicher-Weg 6;Busfahrt 21.12 - Ebensee (Landungsplatz);Ebensee (Landungsplatz);47,81243;13,77462;47,79891;13,76759
+1498;75763,21319935;Traunkirchen;Quellenweg 5;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;48,4617;14,22154
+886;643,35682295;Bad Ischl;Traunkai 5;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,70901;13,62069
+1498;3894,10369521;Gmunden;Schörihub 89;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,92023;13,81735
+1498;75763,21319935;Traunkirchen;Quellenweg 5;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;48,4617;14,22154
+1003;6938,60248189;Neuzeug;Gottlieb-Daimler-Ring 10;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,05558;14,35905
+1007;4450,43198762;Linz;Schiffmannstrasse 40;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,26462;14,28004
+1498;5209,54026339;Altmünster;Pichlhofstraße 57;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,87963;13,76569
+931;15723,27707552;Peuerbach;Thomasberg 11;Busfahrt 21.12 - Grieskirchen Bahnhof (Johannesstraße 3);Grieskirchen Bahnhof (Johannesstraße 3);48,232506;13,834073;48,35881;13,76372
+1007;4450,43198762;Linz;Schiffmannstr.40;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,26462;14,28004
+886;16036,66839964;Strobl;Moosgasse 103;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,71779;13,4816
+886;185,32573876;Bad Ischl;Auböckplatz;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,7107;13,62459
+886;7626,95523467;Bad Ischl;golftraße 2a;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,71322;13,55713
+886;29526,97044592;Gmunden;Kirchengasse 7;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,91882;13,79929
+1498;75763,21319935;Traunkirchen;Quellenweg 5;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;48,4617;14,22154
+886;35328,85866165;Mondsee;Hernedstraße 1;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,85742;13,34121
+1003;11650,26377646;Losenstein;Dirnbergweg 2;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;47,93133;14,41393
+1003;10755,32624552;Laussa;Brettertal;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;47,94288;14,44445
+1003;13574,89966347;Losenstein;Schiefersteinweg 29;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;47,92196;14,46392
+1003;2554,56847849;Steyr;Fischhub 5a;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,044;14,44197
+1003;13574,89966347;Losenstein;Schiefersteinweg 29;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;47,92196;14,46392
+1003;11650,26377646;Losenstein;Dirnbergweg 2;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;47,93133;14,41393
+1003;12651,77710684;Losenstein;Blaslweg 14;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;47,92215;14,42719
+1003;21837,04954394;Großraming;Großraming 31;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;47,88665;14,54869
+1003;9501,0294545;Behamberg;Huberstraße 6;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,05363;14,50376
+1007;72962,89835627;Regau;Schillerstraße 7;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;47,99318;13,70551
+1007;2013,24925525;Linz;Hölderlinstraße 13a;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,32176;14,27937
+1007;92061,57766354;Frankenburg;Rieglerstraße 6a;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,0672;13,49263
+1007;86157,86038308;Seewalchen;Carl-Leißstraße;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;47,95056;13,59347
+1007;47626,38793449;Rohrbach-Berg;Reith 21;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,61669;13,98405
+1003;16214,6459736;Laussa;Schindltal;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;47,91619;14,50334
+1003;22062,52793511;Großraming;Schellnau 4;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;47,88395;14,54877
+1003;3409,05251922;Steyr;Leharstraße 9;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,05767;14,44445
+1003;1473,69787213;Steyr;Pyrachstraße 33b;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,0274;14,413
+1007;1957,97060734;Linz;Hamerlingstraße 2;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,29032;14,29784
+1003;1484,4577652;Steyr;Neue Welt-Gasse 19;Busfahrt 21.12 - Steyr (Reithoffergelände);Steyr (Reithoffergelände);48,03936;14,41944;48,04077;14,40616
+1498;3910,62274332;Pinsdorf;Kaiserweg 7;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,93677;13,74946
+886;24359,31513474;Altmünster;Hasenau;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,88799;13,76262
+1007;15357,40046873;Alberndorf;Kelzendorf 18;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,4116;14,37955
+886;1547,61121063;Bad Ischl;Hubkoglstraße 28;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,70175;13,63546
+886;1729,17927614;Bad Ischl;Johann-Strauß-Straße 6;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,70067;13,6147
+886;8138,06362447;Bad Goisern;schrempfgasse;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,63719;13,61708
+887;1313,25578639;Ebensee;Wiesenweg 5;Busfahrt 21.12 - Ebensee (Landungsplatz);Ebensee (Landungsplatz);47,81243;13,77462;47,8063;13,78482
+1498;699,81136019;Gmunden;Neuhofenstraße 40;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,9311;13,78263
+886;35328,85866165;Mondsee;Hernedstraße 1;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,85742;13,34121
+887;7192,60791728;Ebensee;Lahnsteinstraße 8;Busfahrt 21.12 - Ebensee (Landungsplatz);Ebensee (Landungsplatz);47,81243;13,77462;47,76927;13,72536
+1007;15357,40046873;Alberndorf;Kelzendorf 18;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,4116;14,37955
+1007;15357,40046873;Alberndorf;Kelzendorf 18;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,4116;14,37955
+1007;15357,40046873;Alberndorf;Kelzendorf 18;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,4116;14,37955
+886;15104,62019152;Strobl;Bahnstraße 300;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,71572;13,48992
+1498;9091,99368078;Laakirchen;Lindenstraße 15;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,99944;13,82009
+886;6685,63303415;Bad Goisern;Wildpfad 2;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,65428;13,604
+1498;1108,55216953;Gmunden;Friedrichhebbelstraße 3;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,91493;13,78588
+1498;1108,55216953;Gmunden;Friedrichhebbelstraße 3;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,91493;13,78588
+886;3844,43417988;Bad Ischl;Marie-Louisenstr. 1;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,7179;13,59162
+1498;19547,59845159;Scharnstein;Bäckerberg 24;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,93676;13,95799
+886;17923,43275752;Obertraun;Stiegergasse 277;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,55842;13,68669
+887;7192,60791728;Ebensee;Lahnsteinstraße 8;Busfahrt 21.12 - Ebensee (Landungsplatz);Ebensee (Landungsplatz);47,81243;13,77462;47,76927;13,72536
+886;21121,80162837;St. Wolfgang;Ried 100;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,74197;13,43801
+886;3988,1296617;Bad Ischl;Sandteneck 27;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,71592;13,59005
+1007;17691,62854547;Alberndorf;Schwemmweg;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,40604;14,41323
+1498;7192,01952995;Gschwandt;Feldweg;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,93934;13,84567
+886;19238,12282215;St.Wolfgang;Au 141;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,73658;13,45436
+886;1562,30021458;Bad Ischl;Kalmanstraße 7;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,71192;13,61166
+1498;7192,01952995;Gschwandt;Feldweg;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;47,93934;13,84567
+1007;227284,5346738;Wien;Pezzlgasse 58;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,22064;16,33007
+1007;2211,16932106;Linz;Hauserstraße 23/1;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,32447;14,28095
+886;11454,45895683;Ebensee;Aritzbachstraße 3;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,76607;13,7143
+886;21121,80162837;Sankt Wolfgang;Ried 188;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,74197;13,43801
+886;1356,51748679;Bad Ischl;Rettenbachwaldstraße;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,70845;13,63742
+886;18488,18309616;Ebensee;Ferdinand-Schaller Weg 45;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,79883;13,76897
+886;19238,12282215;St.Wolfgang;Au 141;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,73658;13,45436
+886;21121,80162837;St. Wolfgang;Ried 188;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,74197;13,43801
+886;1129,3127138;Bad Ischl;Rettenbachwaldstraße 56;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,70865;13,63534
+1007;2646,09223153;Linz;Leondinger Straße 23;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,29064;14,26849
+1007;2646,09223153;Linz;Leondinger Straße 23;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,29064;14,26849
+1007;2646,09223153;Linz;Leondinger Straße 23;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,29064;14,26849
+1007;2646,09223153;Linz;Leondinger Straße 23;Busfahrt 21.12 - Linz (Hauptplatz);Linz (Hauptplatz);48,305161;14,28768;48,29064;14,26849
+886;18012,5653763;Obertraun;Obertraun 17;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,5575;13,68662
+886;1624,81492766;Bad Ischl;Jodlerweg;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,70284;13,63732
+887;19319,48790075;Bad Ischl;Jodlerweg;Busfahrt 21.12 - Ebensee (Landungsplatz);Ebensee (Landungsplatz);47,81243;13,77462;47,70284;13,63732
+886;5631,45616283;Bad Goisern;Weißenbach 79;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,66573;13,60236
+886;16651,7664028;Strobl;Seestraße 228;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,71739;13,47605
+886;3833,84379767;Bad Ischl;Weidenweg 8;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,72006;13,59214
+886;1423,08422668;Bad Ischl;Linzer Straße 1;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,7191;13,63647
+886;1423,08422668;Bad Ischl;Linzer Straße 1;Busfahrt 21.12 - Bad Ischl (Busterminal);Bad Ischl (Busterminal);47,71197;13,62571;47,7191;13,63647
+1498;87252,25468944;Alberndorf;Schwemmweg;Busfahrt 21.12 - Gmunden Bahnhof (Vorplatz);Gmunden Bahnhof (Vorplatz);47,92462;13,78259;48,40604;14,41323
