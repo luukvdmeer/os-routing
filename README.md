@@ -8,6 +8,8 @@ More advanced tests, and more engines will be added.
 
 Furthermore, the online Leaflet Routing Machine, which uses the OSRM API in the background, was tested.
 
+The steps are described for Ubuntu 16.04, but will with some modifications probably not be too different for other operating systems.
+
 ## GraphHopper
 ### Setup
 To setup the Graphhopper routing engine in the easiest way, you need a Java Runtime Environment (JRE). Once/if you have that, follow the following steps.
@@ -83,4 +85,36 @@ The script `test_leaflet.html` is a minimal HTML required to create an interacti
 - [GitHub](https://github.com/perliedman/leaflet-routing-machine)
 - [API Documentation](http://www.liedman.net/leaflet-routing-machine/api/)
 
+## pgrouting
+### Setup
+To setup pgrouting, you need to have PostgreSQL installed. Once/if you have that, follow the following steps.
+
+1. Install PostGIS, pgrouting, osm2pgrouting and osmctools. If you have another version than PostgreSQL 11, replace the 11 with your version.
+
+```bash
+sudo apt-get install postgis 
+sudo apt-get install postgresql-11-pgrouting
+sudo apt-get install osm2pgrouting
+sudo apt-get install osmctools
+```
+
+2. Create a database
+
+```bash
+sudo -u postgres createdb <dbname>
+```
+
+3. Download osm data with the Overpass API. Store it in a directory of choice.
+
+```bash
+wget -O linz-umgebung.osm 'https://overpass-api.de/api/map?bbox=13.2,47.6,14.5,48.6'
+```
+
+4. Write data to database
+
+```bash
+osm2pgrouting --f linz-umgebung.osm --conf /usr/share/osm2pgrouting/mapconfig.xml --dbname test_pgr --username username --password password --clean
+```
+
+*TO BE CONTINUED..*
 
