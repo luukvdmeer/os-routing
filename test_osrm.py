@@ -25,3 +25,12 @@ with open('outputs/route_osrm.json', 'w') as json_file:
 	json.dump(route, json_file)
 
 print(route)
+
+# Get duration matrix
+matrix = routing.get_matrix(event = event, stops = stops, engine = 'OSRM', annotations = 'duration')
+
+# Save on disk
+with open('outputs/matrix_osrm.json', 'w') as json_file:
+	json.dump(matrix, json_file)
+
+print(matrix)

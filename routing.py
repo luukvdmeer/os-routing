@@ -50,3 +50,32 @@ def get_route(event, stops, engine, geometry_encoded = True):
 	route = response.json()
 
 	return(route)
+
+
+def get_matrix(event, stops, engine, annotations):
+
+	# Set URL composers:
+	if engine in ['graphhopper', 'gh']:
+
+		return 'For now, matrices can only be produces with the OSRM engine'
+
+	elif engine in ['osrm', 'OSRM']:
+
+		url_start = 'http://127.0.0.1:5000/table/v1/driving/' + str(event['y']) + ',' + str(event['x'])
+
+		url_points = ''
+		for index, row in stops.iterrows():
+			url_points = url_points + ';' + str(row['y']) + ',' + str(row['x'])
+
+		url_end = '?annotations=' + annotations
+
+	# Compose URL
+	url_full = url_start + url_points + url_end
+
+	# Request
+	response = requests.get(url_full)
+
+	# Load as json
+	matrix = response.json()
+
+	return(matrix)
