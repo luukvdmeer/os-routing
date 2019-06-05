@@ -5,3 +5,6 @@ __pycache__/
 graphhopper/
 osrm/
 pgrouting/
+
+# R History files
+.Rhistory
