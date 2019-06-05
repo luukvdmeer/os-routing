@@ -6,7 +6,7 @@ import json
 event = pd.Series([48.3151658, 13.8922251], index = ['x', 'y'])
 
 # Stops coordinates
-stops = routing.read_coords(file = 'data/stops.csv', column_x = 'stop x', column_y = 'stop y', sep = ';', decimal = ',')
+stops = routing.coords_from_csv(csv = 'data/stops.csv', column_x = 'stop x', column_y = 'stop y', sep = ';', decimal = ',')
 
 # Get route
 route = routing.get_route(event = event, stops = stops, engine = 'OSRM')
