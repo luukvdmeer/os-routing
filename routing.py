@@ -2,9 +2,9 @@ import pandas as pd
 import requests
 import json
 
-def read_coords(file, column_x, column_y, **kwargs):
+def coords_from_csv(csv, colcoords_from_csvmn_x, column_y, **kwargs):
 
-	csv_file = pd.read_csv(file, **kwargs)
+	csv_file = pd.read_csv(csv, **kwargs)
 	coords = csv_file[[column_x, column_y]].drop_duplicates()
 	coords.columns = ['x', 'y']
 
