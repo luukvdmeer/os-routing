@@ -16,6 +16,17 @@ def coords_from_csv(csv, column_x, column_y, **kwargs):
     return coords
 
 
+def loads_from_csv(csv, column_x, column_y, **kwargs):
+
+    """Retrieves the number of people to pick up for each stop from a csv file."""
+
+    csv_file = pd.read_csv(csv, **kwargs)
+    loads    = csv_file.groupby([column_x, column_y]).size().tolist()
+
+    return loads
+
+
+
 def get_matrix(event, stops, annotations, integers = True):
 
 
@@ -52,15 +63,17 @@ def get_matrix(event, stops, annotations, integers = True):
     return matrix
 
 
-def create_data_model(matrix, num_vehicles):
+def create_data_model(matrix, loads, vehicles_number, vehicles_capacities):
 
     """Stores the data for the problem"""
 
     data = {}
 
-    data['distance_matrix'] = matrix
-    data['num_vehicles']    = num_vehicles
-    data['depot']           = 0
+    data['matrix']              = matrix
+    data['loads']               = loads
+    data['vehicles_capacities'] = vehicles_capacities
+    data['vehicles_number']     = vehicles_number
+    data['depot']               = 0
 
     return data
 
@@ -69,30 +82,43 @@ def print_solution(data, manager, routing, solution):
 
     """Prints solution on console."""
 
+    # Set initial values for total duration and total load of all routes
+    total_duration = 0
+    total_load     = 0
+
     # Loop over the vehicles to display the optimal route for each of them
-    for vehicle_id in range(data['num_vehicles']):
+    for vehicle_id in range(data['vehicles_number']):
 
-        index          = routing.Start(vehicle_id)
-        plan_output    = 'Route for vehicle {}:\n'.format(vehicle_id)
-        route_distance = 0
+        index          = routing.Start(vehicle_id) # Index of the node where the route for this vehicle starts
+        plan_output    = 'Route for vehicle {}:\n'.format(vehicle_id) # First part of the displayed output for this vehicle
+        route_duration = 0 # Initial value for the total duration of the single route
+        route_load     = 0 # Initial value for the total load of the single route
 
+        # Loop over all separate nodes that are visited by the route of this vehicle
         while not routing.IsEnd(index):
 
-            plan_output    += ' {} -> '.format(manager.IndexToNode(index))
-            previous_index  = index
-            index           = solution.Value(routing.NextVar(index))
-            route_distance += routing.GetArcCostForVehicle(previous_index, index, vehicle_id)
+            node_index      = manager.IndexToNode(index) # Index of the visited node
+            route_load     += data['loads'][node_index] # Update the route_load with the amount of people entering the bus at this node
+            plan_output    += ' {0} Load({1}) -> '.format(node_index, route_load) # Display the node index and the load of the bus after visiting this node
+            previous_index  = index # Set the current node index to be the 'previous index'
+            index           = solution.Value(routing.NextVar(index)) # Set the next node index to be the new 'index'
+            route_duration += routing.GetArcCostForVehicle(previous_index, index, vehicle_id) # Update the route duration
 
 
-        plan_output += '{}\n'.format(manager.IndexToNode(index))
-        plan_output += 'Duration of the route: {} hours\n'.format(route_distance/60/60)
+        plan_output += ' {0} Load({1})\n'.format(manager.IndexToNode(index), route_load) # Display node index and load for last part of the route
+        plan_output += 'Duration of the route: {} hours\n'.format(route_duration / 3600) # Display the total duration of the route, in hours
+        plan_output += 'Load of the route: {} people\n'.format(route_load) # Display the total load of the route
         
-        print(plan_output)
+        print(plan_output) # Print the output
+
+        total_duration += route_duration # Update the total duration of all routes
+        total_load     += route_load # Update the total load of all routes
+
+    print('Total duration of all routes: {} hours'.format(total_duration / 3600)) # Print the total duration of all routes, in hours
+    print('Total load of all routes: {} people'.format(total_load)) # Print the total load of all routes
 
 
-
-
-def main(num_vehicles):
+def main():
 
     """Solve the CVRP problem."""
 
@@ -100,55 +126,77 @@ def main(num_vehicles):
     event = pd.Series([48.3151658, 13.8922251], index = ['x', 'y'])
 
     # Stops coordinates
-    stops = coords_from_csv(csv = 'data/stops.csv', column_x = 'stop x', column_y = 'stop y', sep = ';', decimal = ',')
+    coords = coords_from_csv(csv = 'data/stops.csv', column_x = 'stop x', column_y = 'stop y', sep = ';', decimal = ',')
 
     # Get duration matrix
-    matrix = get_matrix(event = event, stops = stops, annotations = 'duration', integers = True)
+    matrix = get_matrix(event = event, stops = coords, annotations = 'duration', integers = True)
+
+    # Loads per stop
+    loads = loads_from_csv(csv = 'data/stops.csv', column_x = 'stop x', column_y = 'stop y', sep = ';', decimal = ',')
+
+    # Add a load of zero to the event
+    loads.insert(0, 0)
+
+    # Define the number of vehicles
+    vehicles_number = 10
+
+    # Define the capacity of each vehicle
+    vehicles_capacities = [100, 100, 100, 100, 100, 100, 100, 100, 100, 100]
 
     # Instantiate the data problem
-    data = create_data_model(matrix = matrix, num_vehicles = num_vehicles)
+    data = create_data_model(matrix, loads, vehicles_number, vehicles_capacities)
 
     # Create the routing index manager
     manager = pywrapcp.RoutingIndexManager(
-        len(data['distance_matrix']), 
-        data['num_vehicles'], 
+        len(data['matrix']), 
+        data['vehicles_number'], 
         data['depot']
     )
 
     # Create Routing Model
     routing = pywrapcp.RoutingModel(manager)
 
-    # Create and register a transit callback
-    def distance_callback(from_index, to_index):
+    ## ARC COSTS
+    # Create and register a duration callback
+    def duration_callback(from_index, to_index):
 
-        """Returns the distance between the two nodes."""
+        """Returns the duration between the two nodes."""
 
-        # Convert from routing variable Index to distance matrix NodeIndex
+        # Convert from routing variable Index to matrix NodeIndex
         from_node = manager.IndexToNode(from_index)
         to_node   = manager.IndexToNode(to_index)
 
-        return data['distance_matrix'][from_node][to_node]
+        return data['matrix'][from_node][to_node]
 
 
-    transit_callback_index = routing.RegisterTransitCallback(distance_callback)
+    duration_callback_index = routing.RegisterTransitCallback(duration_callback)
 
     # Define cost of each arc
-    routing.SetArcCostEvaluatorOfAllVehicles(transit_callback_index)
+    routing.SetArcCostEvaluatorOfAllVehicles(duration_callback_index)
 
-    # Add duration constraint
-    dimension_name = 'Duration'
+    ## CAPACITY CONSTRAINTS
+    # Create and register load callback
+    def load_callback(index):
 
-    routing.AddDimension(
-        transit_callback_index,
-        0,  # no slack
-        3600 * 4,  # vehicle maximum travel duration
-        True,  # start cumul to zero
-        dimension_name
+        """Returns the number of people to be picked up at a node"""
+
+        # Convert from routing variable Index to loads NodeIndex
+        node = manager.IndexToNode(index)
+
+        return data['loads'][node]
+
+    load_callback_index = routing.RegisterUnaryTransitCallback(load_callback)
+
+    # Add capacity constraint
+    routing.AddDimensionWithVehicleCapacity(
+        load_callback_index,
+        0,  # No waiting times at stops
+        data['vehicles_capacities'], # Vehicle maximum capacity
+        True,  # Start cumulative to zero
+        'Capacity' # Dimension name
     )
 
-    distance_dimension = routing.GetDimensionOrDie(dimension_name)
-    distance_dimension.SetGlobalSpanCostCoefficient(100)
-
+    ## SOLVE
     # Setting first solution heuristic
     search_parameters = pywrapcp.DefaultRoutingSearchParameters()
 
@@ -171,4 +219,4 @@ def main(num_vehicles):
 
 if __name__ == '__main__':
 
-    main(num_vehicles = 10)
+    main()
