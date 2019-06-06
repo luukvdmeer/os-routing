@@ -78,44 +78,69 @@ def create_data_model(matrix, loads, vehicles_number, vehicles_capacities):
     return data
 
 
-def print_solution(data, manager, routing, solution):
+def get_solution(data, manager, routing, solution, display_result = True):
 
     """Prints solution on console."""
 
-    # Set initial values for total duration and total load of all routes
-    total_duration = 0
-    total_load     = 0
+    if display_result:
 
-    # Loop over the vehicles to display the optimal route for each of them
-    for vehicle_id in range(data['vehicles_number']):
+        # Set initial values for total duration and total load of all routes
+        total_duration = 0
+        total_load     = 0
 
-        index          = routing.Start(vehicle_id) # Index of the node where the route for this vehicle starts
-        plan_output    = 'Route for vehicle {}:\n'.format(vehicle_id) # First part of the displayed output for this vehicle
-        route_duration = 0 # Initial value for the total duration of the single route
-        route_load     = 0 # Initial value for the total load of the single route
+        # Loop over the vehicles to display the optimal route for each of them
+        for vehicle_id in range(data['vehicles_number']):
 
-        # Loop over all separate nodes that are visited by the route of this vehicle
-        while not routing.IsEnd(index):
+            index          = routing.Start(vehicle_id) # Index of the node where the route for this vehicle starts
+            plan_output    = 'Route for vehicle {}:\n'.format(vehicle_id) # First part of the displayed output for this vehicle
+            route_duration = 0 # Initial value for the total duration of the single route
+            route_load     = 0 # Initial value for the total load of the single route
 
-            node_index      = manager.IndexToNode(index) # Index of the visited node
-            route_load     += data['loads'][node_index] # Update the route_load with the amount of people entering the bus at this node
-            plan_output    += ' {0} Load({1}) -> '.format(node_index, route_load) # Display the node index and the load of the bus after visiting this node
-            previous_index  = index # Set the current node index to be the 'previous index'
-            index           = solution.Value(routing.NextVar(index)) # Set the next node index to be the new 'index'
-            route_duration += routing.GetArcCostForVehicle(previous_index, index, vehicle_id) # Update the route duration
+            # Loop over all separate nodes that are visited by this vehicle
+            while not routing.IsEnd(index):
+
+                node_index      = manager.IndexToNode(index) # Index of the visited node
+                route_load     += data['loads'][node_index] # Update the route_load with the amount of people entering the bus at this node
+                plan_output    += ' {0} Load({1}) -> '.format(node_index, route_load) # Display the node index and the load of the bus after visiting this node
+                previous_index  = index # Set the current node index to be the 'previous index'
+                index           = solution.Value(routing.NextVar(index)) # Set the next node index to be the new 'index'
+                route_duration += routing.GetArcCostForVehicle(previous_index, index, vehicle_id) # Update the route duration
 
 
-        plan_output += ' {0} Load({1})\n'.format(manager.IndexToNode(index), route_load) # Display node index and load for last part of the route
-        plan_output += 'Duration of the route: {} hours\n'.format(route_duration / 3600) # Display the total duration of the route, in hours
-        plan_output += 'Load of the route: {} people\n'.format(route_load) # Display the total load of the route
+            plan_output += ' {0} Load({1})\n'.format(manager.IndexToNode(index), route_load) # Display node index and load for last part of the route
+            plan_output += 'Duration of the route: {} hours\n'.format(route_duration / 3600) # Display the total duration of the route, in hours
+            plan_output += 'Load of the route: {} people\n'.format(route_load) # Display the total load of the route
         
-        print(plan_output) # Print the output
+            print(plan_output) # Print the output
 
-        total_duration += route_duration # Update the total duration of all routes
-        total_load     += route_load # Update the total load of all routes
+            total_duration += route_duration # Update the total duration of all routes
+            total_load     += route_load # Update the total load of all routes
 
-    print('Total duration of all routes: {} hours'.format(total_duration / 3600)) # Print the total duration of all routes, in hours
-    print('Total load of all routes: {} people'.format(total_load)) # Print the total load of all routes
+        print('Total duration of all routes: {} hours'.format(total_duration / 3600)) # Print the total duration of all routes, in hours
+        print('Total load of all routes: {} people'.format(total_load)) # Print the total load of all routes
+    
+
+    else:
+
+        all_routes = [] # Empty list to store the route lists of all routes
+
+        # Loop over the vehicles to store the optimal route for each of them
+        for vehicle_id in range(data['vehicles_number']):
+
+            index = routing.Start(vehicle_id) # Index of the node where the route for this vehicle starts
+            route = [] # Empty list to store the indices of the nodes that are visited by this vehicle
+
+            # Loop over all separate nodes that are visited by this vehicle
+            while not routing.IsEnd(index):
+
+                route.append(manager.IndexToNode(index)) # Add the index of the visited node to the route list
+                index = solution.Value(routing.NextVar(index)) # Set the next node index to be the new 'index'
+
+
+            route.append(manager.IndexToNode(index)) # Add the index of the final node to the route list
+            all_routes.append(route) # Add the completed route list to the all_routes list
+
+        return all_routes
 
 
 def main():
@@ -210,7 +235,7 @@ def main():
     # Print solution on console
     if solution:
 
-        print_solution(data, manager, routing, solution)
+        get_solution(data, manager, routing, solution, display_result = False)
 
     else:
 
