@@ -1,10 +1,5 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 
-# Routing engines
-graphhopper/
-osrm/
-pgrouting/
-
 # R History files
 .Rhistory
