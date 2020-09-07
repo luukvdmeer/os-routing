@@ -56,7 +56,7 @@ Execution times will be printed to the console and responses (including maps for
 
 ## Performance
 
-Core functionalities perform as follows, using the Multi-Level Dijkstra algorithm with the car profile:
+Core functionalities perform as follows:
 
 - Creating a route through all locations in `data/stops.csv` in the supplied order takes +/- **0.06** seconds.
 - Computing two isochrones (5 and 10 minutes) for the first location in `data/stops.csv` takes +/- **0.20** seconds.
