@@ -23,7 +23,7 @@ print("Points snapped to network in {} seconds".format(t))
 
 # Save as JSON.
 with open("response/snap.json", "w") as f:
-  json.dump(snap, f)
+  json.dump(snap, f, indent = 2)
 
 ## ROUTE SERVICE ##
 
@@ -42,7 +42,7 @@ m.save("response/route.html")
 
 # Save as JSON.
 with open("response/route.json", "w") as f:
-  json.dump(route, f)
+  json.dump(route, f, indent = 2)
 
 ## TABLE SERVICE ##
 
@@ -55,7 +55,7 @@ print("Travel time matrix retrieved in {} seconds".format(t))
 
 # Save as JSON.
 with open("response/matrix.json", "w") as f:
-  json.dump(matrix, f)
+  json.dump(matrix, f, indent = 2)
 
 ## TRIP SERVICE ##
 
@@ -73,4 +73,4 @@ m.save("response/tsp.html")
 
 # Save as JSON.
 with open("response/tsp.json", "w") as f:
-  json.dump(tsp, f)
+  json.dump(tsp, f, indent = 2)

@@ -8,7 +8,7 @@ The Open Source Routing Machine (OSRM) is a C++ routing engine to calculate shor
 
 ## Setup
 
-The easiest way to set up OSRM on your own server is by using Docker images that they provide. Obviously, this requires Docker to be installed. Then, the routing engine can be configured in a step-wise procedure. For a full installation guide of OSRM, see their [documentation](https://github.com/Project-OSRM/osrm-backend)
+The easiest way to set up OSRM on your own server is by using Docker images that they provide. Obviously, this requires Docker to be installed. Then, the routing engine can be configured in a step-wise procedure. All steps should be executed in the same working directory. For a full installation guide of OSRM, see their [documentation](https://github.com/Project-OSRM/osrm-backend)
 
 ### Download the data
 
@@ -28,7 +28,7 @@ Profiles are used during this process to determine what can be routed along, and
 - Car
 - Foot 
 
-The [lua-files](https://github.com/Project-OSRM/osrm-backend/tree/master/profiles) belonging to these built-in profiles can be wrangled and extended by users to create custom profiles.
+The [lua-files](https://github.com/Project-OSRM/osrm-backend/tree/master/profiles) belonging to these built-in profiles can be wrangled and extended by users to create custom profiles. See the [documentation](https://github.com/Project-OSRM/osrm-backend/blob/master/docs/profiles.md) for details.
 
 ```bash
 docker run -t -v "${PWD}:/data" osrm/osrm-backend osrm-extract -p /opt/car.lua /data/austria-latest.osm.pbf
@@ -67,7 +67,7 @@ docker run -t -v "${PWD}:/data" osrm/osrm-backend osrm-customize /data/austria-l
 
 ### Start the server
 
-With the pre-processed data, the OSRM routing engine can be started as follows. 
+With the constructed network, the OSRM routing engine can be started as follows. 
 
 ```bash
 docker run -t -i -p 5000:5000 -v "${PWD}:/data" osrm/osrm-backend osrm-routed  --max-table-size=10000 --algorithm mld /data/austria-latest.osrm
@@ -77,7 +77,7 @@ This will start a local routing server on port 5000. The `--max-table-size` para
 
 ## Functionalities
 
-The OSRM routing enigne offers the following services:
+The OSRM routing engine offers the following services:
 
 - The `nearest` service snaps a single location to the street network and returns the nearest n matches.
 - The `route` service finds the cheapest route between locations in the supplied order, based on a defined travel cost.
@@ -88,10 +88,10 @@ The OSRM routing enigne offers the following services:
 
 Most functionalities are demonstrated in the file [demo.py](demo.py). Running it with `python3 demo.py` will:
 
-- Snap all locations in `../data/stops.csv` to the network, using the `nearest` service.
-- Create a route through all locations in `../data/stops.csv`, in the supplied order, using the `route` service.
-- Compute a travel time matrix with all locations in `../data/stops.csv`, using the `table` service.
-- Find the optimal route visiting all locations in `../data/stops.csv`, using the `trip` service.
+- Snap all locations in `data/stops.csv` to the network, using the `nearest` service.
+- Create a route through all locations in `data/stops.csv`, in the supplied order, using the `route` service.
+- Compute a travel time matrix with all locations in `data/stops.csv`, using the `table` service.
+- Find the optimal route visiting all locations in `data/stops.csv`, using the `trip` service.
 
 Execution times will be printed to the console and responses (including maps for the routes) will be saved in the `response` directory. Make sure to have an OSRM server running at port 5000, with a pre-processed road network of Austria.
 
@@ -100,9 +100,9 @@ Execution times will be printed to the console and responses (including maps for
 Core functionalities perform as follows, using the Multi-Level Dijkstra algorithm with the car profile:
 
 - Snapping all locations in `..data/stops.csv` to the network takes +/- **0.02** seconds.
-- Creating a route through all locations in `../data/stops.csv` in the supplied order takes +/- **0.08** seconds.
-- Computing a travel time matrix with all locations in `../data/stops.csv` takes +/- **0.04** seconds.
-- Solving the traveling salesman problem with all locations in `../data/stops.csv` takes +/- **0.09** seconds.
+- Creating a route through all locations in `data/stops.csv` in the supplied order takes +/- **0.08** seconds.
+- Computing a travel time matrix with all locations in `data/stops.csv` takes +/- **0.04** seconds.
+- Solving the traveling salesman problem with all locations in `data/stops.csv` takes +/- **0.09** seconds.
 
 ## Customization
 
