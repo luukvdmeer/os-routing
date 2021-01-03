@@ -7,7 +7,7 @@ def get_matrix(coords, cost = "duration"):
 
   # Compose request.
   url_type = osrm_server + "/table/v1/driving/"
-  url_coords = ";".join([str(x[0]) + "," + str(x[1]) for x in coords if len(x) == 2])
+  url_coords = ";".join([str(x[0]) + "," + str(x[1]) for x in coords])
   url_cost = "?annotations=" + cost
   url = url_type + url_coords + url_cost
 
@@ -20,7 +20,7 @@ def get_route(coords):
 
   # Compose request.
   url_type = osrm_server + "/route/v1/driving/"
-  url_coords = ";".join([str(x[0]) + "," + str(x[1]) for x in coords if len(x) == 2])
+  url_coords = ";".join([str(x[0]) + "," + str(x[1]) for x in coords])
   url_options = "?overview=full&geometries=geojson"
   url = url_type + url_coords + url_options
 
@@ -33,7 +33,7 @@ def optimize_route(coords):
 
   # Compose request.
   url_type = osrm_server + "/trip/v1/driving/"
-  url_coords = ";".join([str(x[0]) + "," + str(x[1]) for x in coords if len(x) == 2])
+  url_coords = ";".join([str(x[0]) + "," + str(x[1]) for x in coords])
   url_options = "?overview=full&geometries=geojson"
   url = url_type + url_coords + url_options
 

@@ -99,7 +99,7 @@ Execution times will be printed to the console and responses (including maps for
 
 Core functionalities perform as follows, using the Multi-Level Dijkstra algorithm with the car profile:
 
-- Snapping all locations in `..data/stops.csv` to the network takes +/- **0.02** seconds.
+- Snapping all locations in `data/stops.csv` to the network takes +/- **0.02** seconds.
 - Creating a route through all locations in `data/stops.csv` in the supplied order takes +/- **0.08** seconds.
 - Computing a travel time matrix with all locations in `data/stops.csv` takes +/- **0.04** seconds.
 - Solving the traveling salesman problem with all locations in `data/stops.csv` takes +/- **0.09** seconds.
